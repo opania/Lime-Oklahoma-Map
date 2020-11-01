@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Oklahoma City - Lime Map</name>
+    <description/>
+    <Style id="icon-1603-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1686-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1686-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1686-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1686-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1686-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1686-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1686-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1686-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1686-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1686-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>LimeBase</name>
+      <Placemark>
+        <name>Oklahoma City LimeBase</name>
+        <description><![CDATA[<img src="https://doc-04-28-mymaps.googleusercontent.com/untrusted/hostedimage/n3guefppfnde0h346lamac1g5g/ubh4fjl88kub4cctrt5j80s4dg/1604207881250/Ds1fxw4FLhkpYf0Wrjmo2D06f996AQGj/04948892451259237491/5AF2TALrpDhvp_DN2o_57h5yh6g_GEAiTaTJqnlFVVuQXk16GObEqWaNMBZuIex1YQdsDS7cqfr0n79Kt_eJlN5TvJNI7P19Q-A2JJU6sueB4a6duuw8Y2cYdyqzj4LW3mwff7K_eHD9TDXkDi9tv13aS3OcqFauLPP5YOwrYNVIhDYTf17J1tD_afArWTmts9CzfCDFuHKRCmA5ZQaiGwHMR2lbSHUkRtS2xPg4VZpUKb4HA2DtQndKzt5jOLSmaUtNepsB6dhoMpoL1WUEbS-X3-KsGZChdrg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1603-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-28-mymaps.googleusercontent.com/untrusted/hostedimage/n3guefppfnde0h346lamac1g5g/ubh4fjl88kub4cctrt5j80s4dg/1604207881250/Ds1fxw4FLhkpYf0Wrjmo2D06f996AQGj/04948892451259237491/5AF2TALrpDhvp_DN2o_57h5yh6g_GEAiTaTJqnlFVVuQXk16GObEqWaNMBZuIex1YQdsDS7cqfr0n79Kt_eJlN5TvJNI7P19Q-A2JJU6sueB4a6duuw8Y2cYdyqzj4LW3mwff7K_eHD9TDXkDi9tv13aS3OcqFauLPP5YOwrYNVIhDYTf17J1tD_afArWTmts9CzfCDFuHKRCmA5ZQaiGwHMR2lbSHUkRtS2xPg4VZpUKb4HA2DtQndKzt5jOLSmaUtNepsB6dhoMpoL1WUEbS-X3-KsGZChdrg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.5334942,35.4719563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Norman LimeBase</name>
+        <description><![CDATA[<img src="https://doc-0g-28-mymaps.googleusercontent.com/untrusted/hostedimage/n3guefppfnde0h346lamac1g5g/ue34ghuli5lrt2q5ms9tertsro/1604207881250/Ds1fxw4FLhkpYf0Wrjmo2D06f996AQGj/04948892451259237491/5AF2TALrJWfSJn1TsDWX2SmdYHRzJ0EOBlLwznfbn6fKeeQdSigO0yTNPLh1-xOKm4-nMxi_8fL92rJHC2fW-7zheAsf4WqrYGpfbH0LCHIdaIjec8D2mozxr63fxLkgjNP1uNxQhjegN3rZ-TtYMBEJyl7JKVtirqvNsDNU-fjNQuGHb8PDbljXAwFEQHt50RzlZuRB-Mghg56t8_oQFFjQsZhmoMNReRhEKj14s8FrD6UF7e6QEY4qUZBqpDyBn0LJKIk_MI7C3s18kDBEYyGHzEuKhr2rwuw?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1603-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-28-mymaps.googleusercontent.com/untrusted/hostedimage/n3guefppfnde0h346lamac1g5g/ue34ghuli5lrt2q5ms9tertsro/1604207881250/Ds1fxw4FLhkpYf0Wrjmo2D06f996AQGj/04948892451259237491/5AF2TALrJWfSJn1TsDWX2SmdYHRzJ0EOBlLwznfbn6fKeeQdSigO0yTNPLh1-xOKm4-nMxi_8fL92rJHC2fW-7zheAsf4WqrYGpfbH0LCHIdaIjec8D2mozxr63fxLkgjNP1uNxQhjegN3rZ-TtYMBEJyl7JKVtirqvNsDNU-fjNQuGHb8PDbljXAwFEQHt50RzlZuRB-Mghg56t8_oQFFjQsZhmoMNReRhEKj14s8FrD6UF7e6QEY4qUZBqpDyBn0LJKIk_MI7C3s18kDBEYyGHzEuKhr2rwuw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.423781,35.2331034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stillwater LimeBase</name>
+        <styleUrl>#icon-1603-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1251384,36.1191348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>202 S Guthrie Ave</name>
+        <styleUrl>#icon-1603-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9986417,36.151628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>LimeHub</name>
+      <Placemark>
+        <name>900 W Reno Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5276646,35.4637028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>814 W Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.526683,35.4663609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>704 W Reno Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5245128,35.464006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>726 W Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5255056,35.466403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>629 W Main St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.523734,35.468072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1015D N Chowning Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4697898,35.6649329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>119 W Main St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5151307,35.4678264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1955 S Mickey Mantle Dr</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5093684,35.4644518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 E Main St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.510384,35.4672703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>201 E Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5087767,35.4667746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>210 E Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.508519,35.4663108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>600 E Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5029823,35.4661566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>204 N Robinson Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5160444,35.4688426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Myriad Gardens</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5158228,35.4643954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>200 Russell M.Perry Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5056567,35.468638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>322 NE 2nd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5064081,35.4693904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 E California Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5104183,35.4654174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>401 E California Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.505799,35.46557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>517 S Hudson Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5197746,35.4604713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>320 SW 3rd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.518995,35.461827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>301 NW 10th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5176389,35.4782137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 NW 9th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5126504,35.4773747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>329 E Ayers St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.475555,35.6590329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 E 2nd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4810569,35.6533938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>400 N Chowning Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4689449,35.6592629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hamilton Field House</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4715323,35.6601208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>925 E 2nd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4670717,35.6529838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>727 NW 23rd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5253016,35.4934889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>420 NW 30th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5199327,35.5003202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>118 NW 8th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5153752,35.4758956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>901 W Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5276963,35.4670149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>835 W Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5266966,35.4665923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 NE 4th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5097495,35.4715228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20 NW 9th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5130524,35.4766287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1007 N Broadway Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5145292,35.4774802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17 E Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5113004,35.4665545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 N Oklahoma Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5106363,35.4666028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>30 NE 2nd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5107329,35.4695146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1200 N Walker Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5207899,35.4802384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Southwest 2nd Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5253608,35.4632255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1015 N Broadway Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5145292,35.4776504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>301 S Hudson Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5197431,35.4629006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9 E Edwards St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4803664,35.6586003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Education</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4737218,35.6573952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>209 N Walnut Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5096226,35.4694455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4709 N Western Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5300441,35.5190855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>500 Paseo Street</name>
+        <description><![CDATA[<img src="https://doc-00-28-mymaps.googleusercontent.com/untrusted/hostedimage/n3guefppfnde0h346lamac1g5g/v8lsvvap3c5725gockj833fm84/1604207881250/Ds1fxw4FLhkpYf0Wrjmo2D06f996AQGj/04948892451259237491/5AF2TALq7SG0ZYg9Ql-wLxeCtow7J1fahhhJMlBuiSFMgW78vx20MNWPv51EfPb2eFTl5SrX7PB8fUwrm-TZ7HPh_Or_uzmQqne8grgwg3OB01KEYPMbCSPo3EGzMMxTFTX6IjkDcIpaeqTRfAJ-CXMEqNMrO9dOjXeRlPX9btWe47VmS8IQi3-e_6d5ltqNy3KeBX1znIOO6x54PumwvF9oxxXnnVnXn7i8PZxvtdJXvu7gVpCfhTmEZ-jeYmRpiMk6SQY7Oewv6EEwUmZbCeolwxsHWHdJxxw?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1686-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-28-mymaps.googleusercontent.com/untrusted/hostedimage/n3guefppfnde0h346lamac1g5g/v8lsvvap3c5725gockj833fm84/1604207881250/Ds1fxw4FLhkpYf0Wrjmo2D06f996AQGj/04948892451259237491/5AF2TALq7SG0ZYg9Ql-wLxeCtow7J1fahhhJMlBuiSFMgW78vx20MNWPv51EfPb2eFTl5SrX7PB8fUwrm-TZ7HPh_Or_uzmQqne8grgwg3OB01KEYPMbCSPo3EGzMMxTFTX6IjkDcIpaeqTRfAJ-CXMEqNMrO9dOjXeRlPX9btWe47VmS8IQi3-e_6d5ltqNy3KeBX1znIOO6x54PumwvF9oxxXnnVnXn7i8PZxvtdJXvu7gVpCfhTmEZ-jeYmRpiMk6SQY7Oewv6EEwUmZbCeolwxsHWHdJxxw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.5213069,35.4984491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>107 N Broadway Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5147784,35.4680108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3325 N Classen Blvd</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5347881,35.5038947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1016 N Walker Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5210319,35.477942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1325 N Walker Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5211859,35.4822168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1325 N Walker Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5212302,35.48149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 NE 3rd Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5118661,35.4708565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>605 NW 23rd Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5227629,35.4933808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>603 NW 28th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.522578,35.4989579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>801 NW 10th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5258001,35.478941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>801 NW 10th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.526124,35.478932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old North</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4735709,35.657052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 N University Drive</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4717845,35.6556569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>700 E Main Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4711042,35.6542781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3009 Paseo</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5232611,35.499988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>911 Washington Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4734407,35.6638438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>421 NW 10th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5203313,35.4783437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>421 NW 10th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.520103,35.4783441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1111 N Hudson Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.519287,35.4788682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>323 NW 10th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5180443,35.478343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1000 N Hudson Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5190874,35.4774416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>104 E 5th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4793898,35.6497006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>112 E 5th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4795628,35.6497539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1804 NW 16th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5413302,35.4859004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1815 NW 16th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5417802,35.4860775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1759 NW 16th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5409393,35.4860897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1751 NW 16th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5405839,35.4861388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1745 NW 16th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5402978,35.4860963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1700 NW 16th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5389482,35.4858691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3009 Paseo</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5232582,35.4998973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1042 E 2nd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4661638,35.6524598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>152 E 5th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4786783,35.6496176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 N University Drive</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4742694,35.660943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1101 N Pennsylvania Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5484994,35.4788105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4438 NW 10th Street</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.6005244,35.4786669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>27 E Sheridan Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.510964,35.466562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 N University Drive</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4713538,35.6590051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>115 E Reno Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5101018,35.4643757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>111 E Mathew Brady St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9919049,36.1599436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>322 E Archer St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9884418,36.1587255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>222 E 1st St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9884749,36.1561613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[2nd & Detroit]]></name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9882065,36.1556756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>314 S Elgin Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.986349,36.1548159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 E 2nd St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9913919,36.1542469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>320 S Boston Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9895792,36.1529085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>419 S Boulder Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9913144,36.1514259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>304 W 1st St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4826825,35.654282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 E 5th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4801228,35.6497967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lyrewood Ln @ Knight Lake Dr</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.631327,35.546399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NW 23rd St @ N May Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.565287,35.493088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N Pennsylvania Ave @ w Memorial Rd</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5496575,35.6081519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NW 63rd St @ N Meridian Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.6013463,35.5369536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6001 N Western Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5308994,35.5341947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3000 N Lee Ave</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5241137,35.4995951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>820 N Classen Blvd</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5284523,35.4762072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>916 NW 6th St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5283904,35.4741971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1012 NW 1st St</name>
+        <styleUrl>#icon-1686-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.528946,35.468812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
